@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>TP-10</title>
+</head>
+<body>
+<main>
+    <div class="arrayNumAleatorios1">
+        <button onclick="arrayNumAleatorios1()">Generar una lista con números randoms (EJERCICIO 1)</button>
+        <ul id="lista-numeros"></ul>
+    </div>
+    <div class="mostrarArray2">
+        <button onclick="mostrarArray2WHILE()">Mostrar ARRAY desde un ciclo WHILE (EJERCICIO 2)</button>
+        <ul id="lista-numeros-WHILE"></ul>
+        <button onclick="mostrarArray2FOR()">Mostrar ARRAY desde un ciclo FOR (EJERCICIO 2)</button>
+        <ul id="lista-numeros-FOR"></ul>
+        <button onclick="mostrarArray2FOREACH()">Mostrar ARRAY desde un ciclo FOREACH (EJERCICIO 2)</button>
+        <ul id="lista-numeros-FOREACH"></ul>
+        <button onclick="mostrarArray2SUMADOS()">Mostrar ARRAY con los elementos sumados y su promedio (EJERCICIO 2)</button>
+         <ul id="lista-numeros-SUMADOS"></ul>
+         <p id="promedio"></p>
+    </div>
+    <div class="arrayAlCuadrado3">
+        <button onclick="arrayElevadoAlCuadrado3()">Mostrar ARRAY con los elementos elevados al cuadrado (EJERCICIO 3)</button>
+        <ul id="arrayAlCuadrado"></ul>
+    </div>
+    <div class="arraySumaPositivos4">
+        <button onclick="arraySumaPositivos4()">Mostrar la suma de los números positivos del ARRAY (EJERCICIO 4)</button>
+        <p id="arraySumaPositivos"></p>
+    </div>
+    <div class="arrayNombres5">
+        <button onclick="arrayNombres5()">Mostrar por CONSOLA los resultados del ejercicio 5</button>
+    </div>
+    <div class="arrayColores6">
+        <button onclick="arrayColores6()">Colores (EJERCICIO 6)</button>
+    </div>
+    <div class="arrayPares7">
+        <button onclick="arrayPares7()">Array de números pares (CONSOLA) (EJERCICIO 7)</button>
+    </div>
+    <div class="arrayVocales8">
+        <button onclick="arrayVocales8()">Array de palabras que empiezan con vocales (CONSOLA) (EJERCICIO 8)</button>
+    </div><br>
+    <div class="tablasColores10">
+        <h2>Click en las filas para cambiar su color (EJERCICIO 10)</h2>
+        <table>
+            <tr><td id="colorTabla"></td></tr>
+            <tr><td id="colorTabla2"></td></tr>
+        </table>
+    </div><br>
+    <div class="listaOcultar11">
+        <P style="font-size: 30px;">EJERCICIO 11</P>
+        <ul>
+            <li id="ocultarLista1">Click para ocultarme (1)</li>
+            <li id="ocultarLista2">Click para ocultarme (2)</li>
+            <li id="ocultarLista3">Click para ocultarme (3)</li>
+            <li id="ocultarLista4">Click para ocultarme (4)</li>
+        </ul>
+    </div><br>
+    <button><a href="ejercicio12.html" target="_blank">Click aquí para ir al ejercicio 12</a></button>
+    <button><a href="ejercicio13.html" target="_blank">Click aquí para ir al ejercicio 13</a></button>
+    <button><a href="ejercicio14.html" target="_blank">Click aquí para ir al ejercicio 14</a></button>
+    <button><a href="ejercicio15.html" target="_blank">Click aquí para ir al ejercicio 15</a></button>
+    <div class="hipervinculos16">
+        <a id="redireccion" href="#" target="_blank">Click en algún boton para cambiar mi redireccion (EJERCICIO 16)</a><br>
+        <button onclick="hipervinculoYoutube()">Youtube</button>
+        <button onclick="hipervinculoGoogle()">Google</button>
+        <button onclick="hipervinculoFacebook()">Facebook</button>
+    </div>
+    <div class="tablasMouseover17">
+        <p style="font-size: 30px;">EJERCICIO 17</p>
+        <table>
+            <tr>
+                <td class="tablaColor" id="tablaColor1"></td>
+                <td class="tablaColor" id="tablaColor2"></td>
+            </tr>
+            <tr>
+                <td class="tablaColor" id="tablaColor3"></td>
+                <td class="tablaColor" id="tablaColor4"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="tablaHover18">
+        <p style="font-size: 30px;">EJERCICIO 18</p>
+        <table>
+            <tr>
+                <td id="tablaColor1"></td>
+                <td id="tablaColor2"></td>
+            </tr>
+            <tr>
+                <td id="tablaColor3"></td>
+                <td id="tablaColor4"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="divRedimencionado19">
+        <p>Doble click para cambiar el tamaño del div (EJERCICIO 19)</p>
+        <div id="redimencionar"></div>
+    </div>
+    <div class="parrafosAnimacion20" style="margin-top: 60px;">
+        <p style="font-size: 30px">EJERCICIO 20</p>
+        <div class="bordesParrafo">
+            <p id="parrafo1-EJE20">Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Jugador histórico del Fútbol Club Barcelona, al que estuvo ligado veinte años, desde 2021 integra el plantel del Paris Saint-Germain de la Ligue 1 de Francia. Es también internacional con la selección de Argentina, equipo del que es capitán.</p>
+            <p id="parrafo2-EJE20">Considerado con frecuencia el mejor jugador del mundo y uno de los mejores de todos los tiempos,9​ es el único futbolista en la historia que ha ganado, entre otras distinciones, siete veces el Balón de Oro, siete premios de la FIFA al mejor jugador del mundo, seis Botas de Oro y dos Balones de Oro de la Copa Mundial de Fútbol. En 2020, se convirtió en el primer futbolista y el primer argentino en recibir un premio Laureus y fue incluido en el Dream Team del Balón de Oro.</p>
+        </div>
+    </div>
+</main>
+    <script src="app.js"></script>
+</body>
+</html>
