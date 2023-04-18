@@ -305,3 +305,16 @@ $(".bordesParrafo").click(function() {
         $("#parrafo2-EJE20").animate({opacity: '1'});
     }, 1000);
 })
+
+$("#rediccFacebook").click(function(e) {
+    e.preventDefault();
+    var link = $("#rediccFacebook").attr('href');
+    console.log(link);
+})
+
+$("#enviarForm").click(function(e) {
+    e.preventDefault();
+    var username = $("#username").val();
+    $("#Enviado").text("El formulario fue enviado");
+    $("#usernameReg").html(`El username es: <strong>${username}</strong>`);
+})
